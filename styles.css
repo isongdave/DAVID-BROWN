@@ -1,10 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     /* border: solid red; */
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
@@ -15,40 +16,61 @@
     background-size: 100%;
 
 }
-.eng{
+
+.eng {
     display: flex;
     padding: 10px;
     font-size: 20px;
     font-weight: 700px;
 }
-.ul{
+
+.ul {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     list-style-type: none;
 }
-.welcome{
-    padding: 70px 90px;
+
+.welcome {
+    padding: 50px 80px;
     align-items: right;
     justify-content: space-between;
-    line-height: 30px; 
+    line-height: 30px;
+    padding-left: 90px;
+    padding-bottom: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-top: 40px;
 }
-.Gold{
-   color: blue;
-   font-size: 30px; 
+
+
+
+.Gold {
+    color: blue;
+    font-size: 30px;
 }
-.welcome{
-    font-weight: bold; 
+
+.welcome {
+    display: flex;
+    font-weight: bold;
 }
-.product{
-    font-weight: bold; 
+
+.product {
+    font-weight: bold;
     font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.specialize{
-    font-size: 15px; 
-    line-height: 12px; 
+
+.specialize {
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.student{
+
+.student {
     display: flex;
     align-items: center;
     padding-top: 10px;
@@ -56,3 +78,170 @@
     width: 400px;
     height: 350px;
 }
+
+.About {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.create {
+    text-align: center;
+    justify-content: space-between;
+    font-size: 20px;
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 25px;
+}
+
+.months {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white;
+   
+}
+
+.two {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 7px;
+    
+}
+
+.ten {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 7px;
+}
+
+.ux {
+     background: #E0E43FF5;
+    width: 150px;
+    height: 130;
+    margin-bottom: 20px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.sit{
+    background: #40AD86C4;
+    height: 130px;
+    width: 150px;
+    padding-left: 30px;
+    padding-top: 15px;   
+}
+
+
+.designation{
+    background: #5B38E3CC;
+    height: 130px;
+    width: 150px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.color{
+    background-color: #202020;
+    height: 420px;
+    color: white;    
+}
+.works{
+    color: white;
+}
+.me{
+    background: #BFB2F4;
+    height: 380px;
+}
+.line{
+   font-size: 15px;
+   font-style: regular;
+}
+.My {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+.works {
+    text-align: center;
+    font-weight: Bold;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second {
+    height: 300px;
+    width: 350px;
+    padding-bottom: 50px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+.third {
+    height: 400px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.fourth {
+    height: 250px;
+    width: 5000px;
+    padding-right: 300px;
+}
+
+.Me {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+    color: black;
+}
+.visual{
+    color:black;
+}
+
+.new {
+    padding-left: 200px;
+   font-style: regular;
+   font-size: 10px;
+}
+
+.lorem {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.name{
+    padding-left: 650px;
+}
+.place{
+    padding-left: 650px;
+}
+.placeholder{
+    padding-left: 650px;
+}
+
+
